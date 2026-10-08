@@ -6,7 +6,7 @@ public class Product{
       private Date md;
 
       private static double maxprice=0.0;
-      private static double miniprice=Double.MAX_VALUE;;
+      private static double miniprice=0.0;
       private static int count=1;
      
 Product(String name,double price,int quantity){

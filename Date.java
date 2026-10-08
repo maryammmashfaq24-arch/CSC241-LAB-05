@@ -6,6 +6,6 @@ public class Date {
                 this.y = y; 
 }
        public String toString() {
-        return d + "/" + m + "/" + y;
+        return String.format("%d/%d/%d", d, m, y);
     }
 }
